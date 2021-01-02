@@ -18,7 +18,7 @@ def generate_arr():
         arr[i]= random.randrange(1, 100)
 n = len(arr)
 disp = pg.display.set_mode((width,height))
-pg.display.set_caption("Sorting Visualization")
+pg.display.set_caption("Sorting Visualization By - Aryan")
 clock = pg.time.Clock()
 sorted_ = True
 generate_arr()
